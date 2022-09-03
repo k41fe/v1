@@ -50,7 +50,7 @@ SKIP_COMMAND : ["/skip", "/cskip", "تخطي", "تخ"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["restart"]
+RESTART_COMMAND : ["/restart", "اعادة تشغيل"]
 
 # Sudo Users Commaands
 
@@ -85,7 +85,7 @@ VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update", "تحديث"]
+UPDATE_COMMAND : ["/update", "تحديث"]
 REBOOT_COMMAND : ["reboot"]
 AUTOEND_COMMAND : ["autoend"]
 
@@ -100,7 +100,7 @@ UNBLOCK_COMMAND : ["/unblock", "الغاء الحظر", "رفع القيود"]
 BLOCKED_COMMAND : ["/blockedusers", "المحظورين"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest"]
+SPEEDTEST_COMMAND : ["/speedtest", "السرعه"]
 
 #Voice chat commands
 ACTIVEVC_COMMAND : ["activevoice"]
