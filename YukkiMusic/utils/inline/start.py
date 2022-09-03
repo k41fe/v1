@@ -30,8 +30,8 @@ def start_pannel(_):
     buttons.append(
         [
             InlineKeyboardButton(
-                text=_["DR_AG_ON"],
-                url=f"https://telegra.ph/Photos-By-𝗔𝗵𝗺𝗮𝗱-𝗤𝗮-09-02-2"
+                text=_["NE_LO_VER"],
+                url=f"https://t.me/ei222"
             ),
         ],
     )
