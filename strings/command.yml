@@ -21,9 +21,9 @@ STATS_COMMAND : ["/stats", "الاحصائيات"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["/play", "/vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce", "شغل","تشغيل"]
+PLAY_COMMAND : ["/play", "/vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce", "شغل","تشغيل", "ش"]
 PLAYMODE_COMMAND : ["/playmode"]
-CHANNELPLAY_COMMAND : ["channelplay"]
+CHANNELPLAY_COMMAND : ["channelplay", "قش", "قناه شغل"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
 
 #Playlists Command
@@ -33,7 +33,7 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["/song", "/video", "بحث" ,"تحميل"]
+SONG_COMMAND : ["/song", "/video", "بحث" ,"تحميل", "ب"]
 LYRICS_COMMAND : ["lyrics"]
 
 
@@ -45,8 +45,8 @@ PAUSE_COMMAND : ["pause", "cpause"]
 RESUME_COMMAND : ["resume", "cresume"]
 MUTE_COMMAND : ["/mute", "/cmute", "كتم" ,"وقف"]
 UNMUTE_COMMAND : ["/unmute", "/cunmute", "كمل" ,"استئناف"]
-STOP_COMMAND : ["/stop", "/end", "/cstop", "/cend", "انهاء" ,"اطفاء"]
-SKIP_COMMAND : ["/skip", "/cskip", "تخطي"]
+STOP_COMMAND : ["/stop", "/end", "/cstop", "/cend", "انهاء" ,"اطفاء", "كافي", "ك"]
+SKIP_COMMAND : ["/skip", "/cskip", "تخطي", "تخ"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
@@ -55,8 +55,8 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["/addsudo", "مطور"]
-DELSUDO_COMMAND : ["/delsudo", "تنزيل"]
+ADDSUDO_COMMAND : ["/addsudo", "رفع مطور"]
+DELSUDO_COMMAND : ["/delsudo", "تنزيل مطور"]
 SUDOUSERS_COMMAND : ["/sudolist", "المطورين"]
 
 #Broadcast 
@@ -85,7 +85,7 @@ VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update"]
+UPDATE_COMMAND : ["update", "تحديث"]
 REBOOT_COMMAND : ["reboot"]
 AUTOEND_COMMAND : ["autoend"]
 
@@ -96,7 +96,7 @@ AUTHORIZED_COMMAND : ["authorized"]
 
 #Block Users Command
 BLOCK_COMMAND : ["/block", "حظر"]
-UNBLOCK_COMMAND : ["/unblock", "سماح"]
+UNBLOCK_COMMAND : ["/unblock", "الغاء الحظر", "رفع القيود"]
 BLOCKED_COMMAND : ["/blockedusers", "المحظورين"]
 
 #sPEEDTEST
