@@ -133,7 +133,7 @@ async def khalid(client: Client, message: Message):
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/7caf07525a2b69c99e4fb.jpg",
+        photo=f"https://telegra.ph/file/f50833c6b43b4bd60a1f5.jpg",
         caption=f"""[𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗇𝖾𝗅𝗈𝗏𝖾𝗋 𝗌𝗈𝗎𝗋𝖼𝖾](https://t.me/ei222)""",
         reply_markup=InlineKeyboardMarkup(
         [
@@ -141,7 +141,7 @@ async def khalid(client: Client, message: Message):
                 InlineKeyboardButton(
                         "𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url=f"https://t.me/Z_O_1"),
             ],[
-                InlineKeyboardButton("𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ❤️‍🔥 .", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                InlineKeyboardButton("𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ❤️‍🔥 .", url=f"https://t.me/QYWBOT?startgroup=true"),
             ]
         ]
          ),
