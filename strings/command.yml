@@ -43,7 +43,7 @@ UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
 PAUSE_COMMAND : ["pause", "cpause"]
 RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["/mute", "/cmute", "كتم" ,"وقف"]
+MUTE_COMMAND : ["/mute", "/cmute", "وقف" ,"ايقاف"]
 UNMUTE_COMMAND : ["/unmute", "/cunmute", "كمل" ,"استئناف"]
 STOP_COMMAND : ["/stop", "/end", "/cstop", "/cend", "انهاء" ,"اطفاء", "كافي", "ك"]
 SKIP_COMMAND : ["/skip", "/cskip", "تخطي", "تخ"]
@@ -96,7 +96,7 @@ AUTHORIZED_COMMAND : ["authorized"]
 
 #Block Users Command
 BLOCK_COMMAND : ["/block", "حظر"]
-UNBLOCK_COMMAND : ["/unblock", "الغاء الحظر", "رفع القيود"]
+UNBLOCK_COMMAND : ["/unblock", "الغاء الحظر" ,"رفع القيود"]
 BLOCKED_COMMAND : ["/blockedusers", "المحظورين"]
 
 #sPEEDTEST
