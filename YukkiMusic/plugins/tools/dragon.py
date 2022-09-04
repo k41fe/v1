@@ -103,50 +103,8 @@ async def khalid(client: Client, message: Message):
                 ],
             ]
         ),
-    )
-              
-@app.on_message(
-    command(["نيلوفر"])
-    & filters.group
-    & ~filters.edited
-)
-async def khalid(client: Client, message: Message):
-    usr = await client.get_users(message.from_user.id)
-    name = usr.first_name
-    async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
-                    await message.reply_text( 
-                    f"""هِاެ يَࢪۅٛحِهِهِ ݪنِيَݪۅٛفَࢪ اެنِتَ❤️‍🔥.""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "𝖲𝗈𝗎𝗋𝖼𝖾", url=f"https://t.me/ei222"),
-                ],
-            ]
-        ),
-    )
-      
-@app.on_message(
-    command(["بوت"])
-    & filters.group
-    & ~filters.edited
-)
-async def khalid(client: Client, message: Message):
-    usr = await client.get_users(message.from_user.id)
-    name = usr.first_name
-    async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
-                    await message.reply_text( 
-                    f"""اެسمي اެݪحݪۅٛ نيݪۅٛفࢪ يحيݪي❤️‍🔥.""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "𝖲𝗈𝗎𝗋𝖼𝖾", url=f"https://t.me/Ei222"),
-                ],
-            ]
-        ),
-    )
-
+    )             
+    
 @app.on_message(
      command(["المطور"])
     & filters.group
