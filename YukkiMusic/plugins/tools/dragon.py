@@ -106,13 +106,13 @@ async def khalid(client: Client, message: Message):
     )
                     
 @app.on_message(
-     command(["مبرمج السورس","المطور","مطور السورس","المبرمج"])
+     command(["المطور"])
     & filters.group
     & ~filters.edited
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/56a1518aa433dbb8f943b.jpg",
+        photo=f"https://telegra.ph/file/b461d00fc4b9fffe7f525.jpg",
         caption=f"""𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 𝖡𝗈𝖳""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -134,16 +134,36 @@ async def khalid(client: Client, message: Message):
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/f50833c6b43b4bd60a1f5.jpg",
-        caption=f"""[𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗇𝖾𝗅𝗈𝗏𝖾𝗋 𝗌𝗈𝗎𝗋𝖼𝖾](https://t.me/ei222)""",
+        caption=f"""[
+𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 𝖭𝖾𝗅𝗈𝗏𝖾𝗋 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/ei222)""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                        "𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url=f"https://t.me/Z_O_1"),
+                        "𝖯𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋", url=f"https://t.me/Z_O_1"),
             ],[
                 InlineKeyboardButton("𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ❤️‍🔥 .", url=f"https://t.me/QYWBOT?startgroup=true"),
             ]
         ]
          ),
      )
-  
+  @app.on_message(
+     command(["مبرمج السورس" ,"مطور السورس","المبرمج"])
+    & filters.group
+    & ~filters.edited
+)
+async def khalid(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/b461d00fc4b9fffe7f525.jpg",
+        caption=f"""𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 𝖯𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋 𝖡𝗈𝖳""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                InlineKeyboardButton("𝖯𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋", url=f"https://t.me/Z_O_1"),
+                ],[
+                InlineKeyboardButton(
+                        "𝖲𝗈𝗎𝗋𝖼𝖾", url=f"https://t.me/EI222"),
+                ]
+            ]
+        ),
+    )
