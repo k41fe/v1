@@ -112,7 +112,7 @@ async def check_is_joined(message):
 
     except Exception:
 
-        await message.reply_text("↯︙ عذࢪاެً عࢪ࣪يࢪ࣪ي يجب اެݪاެشتࢪاެك في قناެه اެݪبۅٛت اެۅٛݪاެً ، ثم اެستخدم اެݪاެمࢪ 🤼 .",reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
+    await message.reply_text("↯︙ عذࢪاެً عࢪ࣪يࢪ࣪ي يجب اެݪاެشتࢪاެك في قناެه اެݪبۅٛت اެۅٛݪاެً ، ثم اެستخدم اެݪا  .",reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
 
         return False
 
