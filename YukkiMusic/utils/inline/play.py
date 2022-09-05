@@ -58,7 +58,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=_["SOURCE_NELOVER"],
-                url=f"https://t.me/EI222",
+                url=f"https://t.me/L6L6P",
             ),
         ],
     ]
@@ -235,7 +235,7 @@ def panel_markup_1(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⏸ إيقاف", callback_data=f"ADMIN Pause|{chat_id}"
+                text="⏮️ إيقاف", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
                 text="▶️ استئناف",
@@ -244,7 +244,7 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⏯ تخطي", callback_data=f"ADMIN Skip|{chat_id}"
+                text=" تخطي", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
                 text="⏹ أنهاء", callback_data=f"ADMIN Stop|{chat_id}"
@@ -256,7 +256,7 @@ def panel_markup_1(_, videoid, chat_id):
                 callback_data=f"Pages Back|0|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 رجوع",
+                text=" رجوع",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
@@ -310,21 +310,21 @@ def panel_markup_3(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⏮ 10 ثواني ",
+                text=" 10 ثواني ",
                 callback_data=f"ADMIN 1|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏭ 10 ثواني ",
+                text=" 10 ثواني ",
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⏮ 30 ثانية ",
+                text=" 30 ثانية ",
                 callback_data=f"ADMIN 3|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏭ 30 ثانية ",
+                text=" 30 ثانية ",
                 callback_data=f"ADMIN 4|{chat_id}",
             ),
         ],
