@@ -94,7 +94,7 @@ async def khalid(client: Client, message: Message):
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
                     await message.reply_text( 
-                    f"""ها يروح نيلوفر انت ❤️‍🔥 .""",
+                    f"""ها يحيلي تيكساس 🤍 .""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -117,10 +117,10 @@ async def khalid(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton("𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url=f"https://t.me/Z_O_1"),
+                InlineKeyboardButton("𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url=f"https://t.me/G5IID"),
                 ],[
                 InlineKeyboardButton(
-                        "𝖲𝗈𝗎𝗋𝖼𝖾", url=f"https://t.me/EI222"),
+                        "𝖲𝗈𝗎𝗋𝖼𝖾", url=f"https://t.me/L6L6P"),
                 ]
             ]
         ),
@@ -140,7 +140,7 @@ async def khalid(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                        "𝖯𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋", url=f"https://t.me/Z_O_1"),
+                        "𝖯𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋", url=f"https://t.me/L6L6P"),
             ],[
                 InlineKeyboardButton("𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ❤️‍🔥 .", url=f"https://t.me/QYWBOT?startgroup=true"),
             ]
@@ -160,10 +160,10 @@ async def khalid(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton("𝖯𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋", url=f"https://t.me/Z_O_1"),
+                InlineKeyboardButton("𝖯𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋", url=f"https://t.me/G5IID"),
                 ],[
                 InlineKeyboardButton(
-                        "𝖲𝗈𝗎𝗋𝖼𝖾", url=f"https://t.me/EI222"),
+                        "𝖲𝗈𝗎𝗋𝖼𝖾", url=f"https://t.me/L6L6P"),
                 ]
             ]
         ),
