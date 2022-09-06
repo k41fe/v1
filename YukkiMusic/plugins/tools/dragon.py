@@ -134,8 +134,7 @@ async def khalid(client: Client, message: Message):
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/f50833c6b43b4bd60a1f5.jpg",
-        caption=f"""[
-𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 𝖭𝖾𝗅𝗈𝗏𝖾𝗋 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/ei222)""",
+        caption=f"""[𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 𝖭𝖾𝗅𝗈𝗏𝖾𝗋 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/ei222)""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
